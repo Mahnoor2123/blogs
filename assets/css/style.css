@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .body{
+    font-family: 'Montserrat', sans-serif;
+}
+  
+.container nav ul   {
+    margin-right: 30px;
+    
+    font-weight: 500;
+
+
+}
+.container nav .navbar-brand   {
+   
+color: rgba(25, 43, 88, 0.778);
+font-weight: 600;
+   
+   }
+.container nav ul li a   {
+ transform: translateX(140px);
+ 
+    color: #9a9a9a;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+nav div form  button{
+ margin-right: 10px;
+ border: none;
+ color: #fff;
+ padding: 5px 10px;
+ background-color:rgba(25, 43, 88, 0.778);
+ cursor: pointer;
+  }
+ nav div form img{
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+ cursor: pointer;
+}
+/* header section styling */
+.header {
+    text-align: center;
+    background-color: #85a6f2a9;
+    height: 25px;
+}
+.header p {
+    color: black;
+
+   
+
+} 
+/* new food 53 styling */
+.FOOD52{
+    background-color: rgba(25, 43, 88, 0.778);
+    color: #fff;
+}
+.FOOD52 h5{
+   text-transform: capitalize;
+   font-size: 25px;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   margin-top: 20px;
+   
+}
+.vertical-line::after {
+    content: '';
+    position: absolute;
+    top: 25px;
+    bottom: 0;
+    border-left: 2px solid #9a9a9a; /* Change the color and width as desired */
+    height: 140px;
+    
+   
+  }
+  
+  .vertical-line::after {
+    right: 0;
+  }
+.FOOD52 p{
+    text-transform: capitalize;
+    font-size: 14px;
+   padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+ }
+ .FOOD52 h6{
+    text-transform: capitalize;
+  padding: 5px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 50px;
+    font-size: 14px;
+ }
+ .FOOD52  a{
+   color: #fff;
+   text-decoration: underline;
+  
+   text-align: center;
+ }
+ .FOOD52 .container   .dot{
+    background-color: #fff;
+    border-radius: 20px;
+    height: 7px;
+    width: 7px;
+    margin-top: 100px;
+   
+  }
+  /* styling of hero section */
+  .Hero{
+    margin-top: 50px;
+  }
+  .Hero .card{
+   border: none;
+   width: 200px ;
+   }
+   .Hero .card .card-title{
+   color: #444;
+   text-align: center;
+
+    }
+    .Hero .card .card-text{
+        color: #444;
+        text-align: center;
+        font-size: 14px;
+     
+         }
+         .Hero .card .card-body{
+           
+            text-align: center;
+          
+         
+             }
+             .Hero .card a {
+              color: #444;
+                text-transform: uppercase;
+              
+                  }
+         .Hero .card a img{
+           height: 11px;
+           width: 11px;
+
+         
+             }
+   
+  .Hero img{
+   height: 200px;
+   width: 200px;
+  }
+  .Hero .line::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-left: 1px solid #44444421; /* Change the color and width as desired */
+   
+    
+   
+  }
+  
+  .Hero .line::after {
+    left:0px;
+  }
+  .Hero .card-middle  {
+    text-align: center;
+    margin-right: 30px;
+
+    }
+  .Hero .card-middle .card-body {
+    text-align: center;
+
+    }
+    .Hero .card-middle img{
+        height: 400px;
+       width: 500px;
+        }
+
+  .Hero .card-middle .card-body small{
+    
+   text-transform: uppercase;
+    color: #4444447c;
+    font-weight: 600;
+    }
+  .Hero .card-middle .card-title{
+   font-size: 30px;
+   color: #444;
+   margin-block:30px ;
+   }
+   .Hero .card-middle .card-text{
+    font-size: 18px;
+    color: #444;
+    }
+    .Hero .recipe{
+        font-size: 16px;
+        color: #44444493;
+        text-transform: capitalize;
+        text-align: center;
+      
+    }
+    .Hero  .card-right {
+       width: 230px;
+      padding-right: 30px;
+      
+    }
+    .Hero  .card-right .card-title{
+        font-size: 16px;
+        color: #44444493;
+        text-transform: capitalize;
+        text-align: center;
+      
+    }
+    .Hero  .card-right img{
+       height: 130px;
+       width: 230px;
+      
+    }
+  
+    
+    .horizontal-line:after {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: 95%;
+    background-color:  #44444421;
+    margin-block:20px ;
+}
+
+.horizontal-line:after {
+    margin-left: 10px;
+}
+    /* styling of product detail card */
+    .Detail img{
+      height: 400px;
+      margin-top: 30px;
+    }
+    .detail-content h5{
+      margin-top: 30px;
+     
+      color: #44444493;
+
+
+    }
+    .detail-content h4{
+      margin-block: 20px;
+      color:rgba(25, 43, 88, 0.778) ;
+      font-weight: 600;
+    }
+    .detail-content button{
+      padding: 5px 10px;
+      background-color:rgba(25, 43, 88, 0.778);
+ border:none;
+ color: #fff;
+ border-radius: 12px;
+
+    }
+/* index file responsiveness */
+@media (max-width:390px) {
+  .Hero .card-middle img {
+    height: 300px;
+    width: 300px;
+}
+.header {
+  height: 50px;
+}
+.Hero .left-blogs{
+  display: flex;
+  align-items: center;
+}
+.head span .dot{
+  display: none;
+}
+
+  
+}
+
+
